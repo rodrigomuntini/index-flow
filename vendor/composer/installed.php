@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'ed5b9d3315e6692a3f9a7b87afdaac98e8b3e11e',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -403,6 +403,15 @@
                 0 => 'v9.52.12',
             ),
         ),
+        'inertiajs/inertia-laravel' => array(
+            'pretty_version' => 'v0.6.9',
+            'version' => '0.6.9.0',
+            'reference' => 'b983c6eb2fe7460df6170060cdd7b47b5ef6832a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../inertiajs/inertia-laravel',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'intervention/image' => array(
             'pretty_version' => '2.7.2',
             'version' => '2.7.2.0',
@@ -427,6 +436,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'laravel/breeze' => array(
+            'pretty_version' => 'v1.19.2',
+            'version' => '1.19.2.0',
+            'reference' => '725e0c4fb1f630afdd90b5fba2a7f6d8d547ac29',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/breeze',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
         'laravel/framework' => array(
             'pretty_version' => 'v9.52.12',
             'version' => '9.52.12.0',
@@ -437,9 +455,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'ed5b9d3315e6692a3f9a7b87afdaac98e8b3e11e',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1330,6 +1348,15 @@
             'install_path' => __DIR__ . '/../theseer/tokenizer',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'tightenco/ziggy' => array(
+            'pretty_version' => 'v1.6.0',
+            'version' => '1.6.0.0',
+            'reference' => '3beb080be60b1eadad043f3773a160df13fa215f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tightenco/ziggy',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'tijsverkoyen/css-to-inline-styles' => array(
             'pretty_version' => '2.2.6',
