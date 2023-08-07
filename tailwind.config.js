@@ -12,9 +12,28 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Roboto', ...defaultTheme.fontFamily.sans],
+            },
+            colors: {
+                'primary':'#31086D',
+                'primary-alt':'#5C23AB',
+                'secondary':'#25BDEA',
+                'secondary-alt':'#7437CC',
+                'third':'#2B0B5F',
+                'banner':'#25BDEA',
+                'border':'#F2F2F2'
             },
         },
+        container: {
+            padding: {
+              DEFAULT: '1rem',
+              sm: '2rem',
+              lg: '4rem',
+              xl: '120px',
+              '2xl': '6rem',
+            },
+          },
+        
     },
 
     plugins: [require('@tailwindcss/forms')],
